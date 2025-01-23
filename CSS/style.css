@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../ASSETS/animebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+main {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 650px;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    align-items: end;   
+}
+form {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    padding: 0;
+}
+.inpArea {
+    background-color: transparent;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text {
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    color: rgb(214, 214, 214);
+}
+.resp {
+    background-color: rgba(7, 7, 7, 0.63);
+    position: absolute;
+    color: rgb(214, 214, 214);
+    top: 40px;
+    left: 40px;
+    padding: 10px;
+    width: 40vw;
+    max-height: 230px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 5px;
+    word-wrap: break-word;
+    box-shadow: -10px -10px 30px rgb(183, 75, 226);
+}
+.resp::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+.resp::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.resp::-webkit-scrollbar-track {
+    background-color: rgba(7, 7, 7, 0.247);
+}
+p {
+    margin: 0;
+}
